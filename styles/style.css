@@ -225,6 +225,33 @@ footer img {
     height: 1.2rem;
 }
 
+/* About-side hero med construction background */
+.hero-about {
+    background: url("../images/construction.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 80vh;
+
+    /* så teksten bliver læsbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+.hero-about h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-about h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 /* Projects page specifik styling */
 
 
@@ -243,7 +270,14 @@ footer img {
     font-size: 4rem;
     color: black;
     margin-top: 2rem;
-    margin-bottom: 6rem;
+    width: 100%;
+}
+
+.projects-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 3rem;
     width: 100%;
 }
 
